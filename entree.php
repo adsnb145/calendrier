@@ -14,6 +14,8 @@
 <p>PASSAGE VERS AFFICHAGE D'UNE<a href="index2.php">ANNÉE</a>
  <br>   
 
-<p>PASSAGE VERS AFFICHAGE D'UNE<a href="mois.php">MOIS</a>
+<p>PASSAGE VERS AFFICHAGE D'UNE<a href="mois.php">MOIS</a><br>
+
+<p>PASSAGE VERS AFFICHAGE D'UNE<a href="addsession1.php">TABLE_SEASON</a></p>
 
 </html>
