@@ -17,6 +17,7 @@
     
 <div class="formulaire">
   <p>PASSAGE VERS AFFICHAGE D'UNE<a href="index2.php">ANNÉE</a></p>
+  <p>PASSAGE VERS AFFICHAGE D'UNE<a href="addsession1.php">TABLE_SEASON</a></p>
   <form action="#" method="GET">
     <label for="month">Choisir un mois:</label>
     <select id="month" name="month">
@@ -46,17 +47,10 @@
       
     <div class="grid-container">
     
-    <?php if($m<=3){ ?>
-        <div class="grid-item"><div class="a">  <?php echo afficher_mois_html_table($m, $an);?>  </div></div><?php } ?>
+    <?php if($m>=1 and $m<=12){ ?>
+        <div class="grid-item">  <?php echo afficher_mois_html_table($m, $an);?></div><?php } ?>
       
-        <?php if($m<=6 and $m>3){ ?>
-          <div class="grid-item"><div class="b"> <?php echo afficher_mois_html_table($m, $an);?> </div></div><?php } ?>
       
-        <?php if($m<=9 and $m>6){ ?>
-          <div class="grid-item"><div class="c">  <?php echo afficher_mois_html_table($m, $an);?>  </div></div><?php } ?>
-      
-        <?php if($m<=12 and $m>9){ ?>
-          <div class="grid-item"><div class="d">  <?php echo afficher_mois_html_table($m, $an);?> </div></div><?php } ?>
 
     </div>
     </div>
