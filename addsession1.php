@@ -40,13 +40,12 @@
 <body>
     <h1>TP Calendrier personnel</h1>
     <p>PASSAGE VERS AFFICHAGE D'UNE<a href="entree.php">MENUE</a></p>
-    <ul>
+    
+<div class="formulaire">
+<ul>
         <p>PASSAGE VERS AFFICHAGE D'UNE<a href="index2.php">MOIS</a></p>
         <p>PASSAGE VERS AFFICHAGE D'UNE<a href="mois.php">TABLE_SEASONS</a></p>
     </ul>
-
-<div class="formulaire">
-    <?php echo $confirmation ? "<h1>".$confirmation."</h1>" : "<h1>Bienvenu!</h1>"; ?>
         <form action="#" method="get">
             <?php 
                 $exists = true;
